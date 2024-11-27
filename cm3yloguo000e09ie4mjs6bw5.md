@@ -3,7 +3,6 @@ title: "DevOps Day#1"
 datePublished: Tue Nov 26 2024 15:17:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm3yloguo000e09ie4mjs6bw5
 slug: devops-day1
-tags: 90daysofdevops, trainwithshubham
 
 ---
 
