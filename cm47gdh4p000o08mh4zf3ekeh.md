@@ -9,7 +9,6 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
 
 ### `Your Ultimate Guide to Installing, Using, and Excelling with Terraform Across Platforms"`
 
-###   
 **What is Terraform?**
 
 * **Definition**: Terraform is an open-source Infrastructure as Code (IaC) tool by HashiCorp.
@@ -86,8 +85,6 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
         
     * Destroy resources: `terraform destroy`
         
-    * Destroy resources: `terraform destroy`
-        
     
     #### **How to Install Terraform?**
     
@@ -161,10 +158,9 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
 * **Step 3**: Write infrastructure definitions in `.tf` files
     
 * ```bash
-      main.tf
+        main.tf
     ```
     
-
 * **Step 4**: Use backend configuration (optional):
     
     * Store state files in aws,S3, Azure Blob, etc., for collaboration.
@@ -186,7 +182,7 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
     
     Before starting with Terraform, make sure you have the following:
     
-    * **AWS Account**: You need an AWS account to create EC2 instances and other resources. If you don't have one, [sign up he](https://aws.amazon.com/)[re.](https://aws.amazon.com/)
+    * **AWS Account**: You need an AWS account to create EC2 instances and other resources. If you don't have one, [sign up here.](https://aws.amazon.com/)
         
     * #### **Create a New IAM User**
         
@@ -203,16 +199,14 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
                 **Console access**: Provides a username and password for the AWS Management Console.
                 
         
-    * **Terraform Installed**: Terraform needs to be installed on your machine. You can download it from the
+    * **Terraform Install**: Terraform needs to be installed on your machine. You can download it from the
         
         [https://developer.hashicorp.com/terraform/install](https://developer.hashicorp.com/terraform/install)
         
     * **AWS CLI install**: The AWS CLI is helpful for configuring your credentials. Install it from this [https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)[website.](https://aws.amazon.com/cli)
         
-    * **Ba**[**sic Understa**](https://aws.amazon.com/)**n****ding of EC2**: EC2 is AWS’s virtual server service, and it’s important to know what it is before [creating](https://aws.amazon.com/cli) [an instance](https://aws.amazon.com/).
+    * **Basic Understanding of EC2**: EC2 is AWS’s virtual server service, and it’s important to know what it is before creating an instance.  
         
-    
-      
     
     ---
     
@@ -236,7 +230,18 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
          aws configure
         ```
         
-    4. [You’ll b](https://aws.amazon.com/cli)e prompted to enter your AWS Access Key, Secret Key, region, and output format. These keys can be found in the AWS IAM console.
+    4. [You’ll b](https://aws.amazon.com/cli)e prompted to enter your AWS Access Key, Secret Key, region, and output format. These keys can be found in the AWS IAM
+        
+        Set the following environment variables in your terminal:
+        
+        ```bash
+        
+        
+        export AWS_ACCESS_KEY_ID="your-access-key-id"
+        export AWS_SECRET_ACCESS_KEY="your-secret-access-key"
+        export AWS_DEFAULT_REGION="us-east-1"
+        O
+        ```
         
     
     ---
@@ -358,7 +363,7 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
     
     This gives you the flexibility to delete specific resources while keeping others intact.
     
-    **Conclusion**
+    ## **Conclusion**
     
     Using Terraform not only saves time but also ensures consistency and scalability in your infrastructure. By leveraging Infrastructure as Code (IaC), you reduce manual errors and create a repeatable process for deploying resources.
     
