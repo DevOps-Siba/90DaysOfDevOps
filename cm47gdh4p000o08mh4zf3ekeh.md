@@ -208,8 +208,6 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
     * **Basic Understanding of EC2**: EC2 is AWS’s virtual server service, and it’s important to know what it is before creating an instance.  
         
     
-    ---
-    
     ### **Step-by-Step Guide to Create EC2 Instances with Terraform**
     
     #### **Step 1: Configure AWS CLI**
@@ -230,7 +228,7 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
          aws configure
         ```
         
-    4. [You’ll b](https://aws.amazon.com/cli)e prompted to enter your AWS Access Key, Secret Key, region, and output format. These keys can be found in the AWS IAM
+    4. [You’ll b](https://aws.amazon.com/cli)e prompted to enter your AWS Access Key, Secret Key, region, and output format. These keys can be found in the **AWS IAM** user
         
         Set the following environment variables in your terminal:
         
@@ -284,7 +282,7 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
     
     * **provider**: Defines the AWS provider and the region.
         
-    * **aws\_instance**: Defines an EC2 instance. You specify the AMI ID (Amazon Machine Image) and instance type.
+    * **aws\_instance**: Defines to create an EC2 instance. You specify the AMI ID (Amazon Machine Image) and instance type.
         
     
     Make sure to replace the AMI ID with one that’s valid for your region. You can find AMI IDs on the AWS Console.
@@ -323,7 +321,7 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
      terraform apply
     ```
     
-    Terraform will ask you to confirm by typing `yes`. After confirmation, it will create the EC2 instance based on the configuration.
+    **Terraform will ask you to confirm by typing** `yes`. After confirmation, it will create the EC2 instance based on the configuration.
     
     ---
     
