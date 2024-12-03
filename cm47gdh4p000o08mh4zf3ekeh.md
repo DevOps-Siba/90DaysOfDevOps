@@ -158,7 +158,7 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
 * **Step 3**: Write infrastructure definitions in `.tf` files
     
 * ```bash
-        main.tf
+          main.tf
     ```
     
 * **Step 4**: Use backend configuration (optional):
@@ -205,7 +205,7 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
         
     * **AWS CLI install**: The AWS CLI is helpful for configuring your credentials. Install it from this [https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)[website.](https://aws.amazon.com/cli)
         
-    * **Basic Understanding of EC2**: EC2 is AWS’s virtual server service, and it’s important to know what it is before creating an instance.  
+    * **Basic Understanding of EC2**: EC2 is AWS’s virtual server service, and it’s important to know what it is before creating an instance.
         
     
     ### **Step-by-Step Guide to Create EC2 Instances with Terraform**
@@ -238,7 +238,6 @@ tags: 90daysofdevops, trainwithshubham, abhishek-veeramalla
         export AWS_ACCESS_KEY_ID="your-access-key-id"
         export AWS_SECRET_ACCESS_KEY="your-secret-access-key"
         export AWS_DEFAULT_REGION="us-east-1"
-        O
         ```
         
     
