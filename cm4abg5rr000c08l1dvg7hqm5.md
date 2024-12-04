@@ -73,26 +73,32 @@ Shell Scripting is writing a series of commands in a script file to automate tas
     
 * Open your file and write script given below image.
     
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1733344059649/2609343e-65a0-4ce1-900c-e22277b688c3.png align="center")
+    
 * Give permission for make it executable.
+    
+* ```bash
+    chmod +x automation.sh
+    ```
     
 * Run this file ./file name .
     
-* Then final output you will get Apache server installation done.
+    ```bash
+    ./automation.sh
+    ```
     
-
-**Let’s check below image .**
+* Then final output you will get Apache server installation done. Check bellow image:
+    
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1733335679222/53068815-fed5-45ec-8cef-d3e5b8c3699c.png align="center")
 
-**Task 2: What is** `#!/bin/bash`**? Can we write** `#!/bin/sh` **as well?**
+Task 2: What is `#!/bin/bash`? Can we write `#!/bin/sh` as well?
 
-The `#!/bin/bash` is called a "shebang" line. It indicates that the script should be run using the Bash shell.
-
-* * `#!/bin/bash`: Uses Bash as the interpreter. It supports advanced features like arrays, associative arrays, and functions.
+* `#!/bin/bash` is called a "shebang" line. It indicates that the script should be run using the Bash shell.
+    
+    * `#!/bin/bash`: Uses Bash as the interpreter. It supports advanced features like arrays, associative arrays, and functions.
         
     * `#!/bin/sh`: Uses the Bourne shell. It’s more POSIX-compliant and is generally compatible with different Unix shells.
-        
-    * Yes, you can write `#!/bin/sh` instead of `#!/bin/bash`, but Bash supports more advanced features, making it the preferred choice for most scripts.
         
 
 **Task 3: Write a Shell Script that prints** `I will complete #90DaysOfDevOps challenge`**.**
@@ -100,6 +106,11 @@ The `#!/bin/bash` is called a "shebang" line. It indicates that the script shoul
 **Steps**:
 
 1. Save the script as [`devops.sh`](http://motivation.sh).
+    
+    ```bash
+    #!/bin/bash
+    echo "I will complete #90DaysOfDevOps challenge."
+    ```
     
 2. Make it executable: chmod +x devops.sh
     
@@ -128,7 +139,7 @@ I will complete #90DaysOfDevOps challenge.
     ./input.sh siba  Anand
     ```
     
-4. Final output:
+    4 . Final output:
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1733341094570/3984a839-7820-4693-8b93-eb53c204d6ff.png align="center")
@@ -139,11 +150,11 @@ Let’s compare two numbers using an `if-else` statement.
 
 **Script**:
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1733343217959/828b76d3-bb46-4376-8850-c0864a9c7a8a.png align="center")
+
 **Steps**:
 
-1. Save the script as [`compare.sh`](http://compare.sh).
-    
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1733342060319/478e97ad-6e87-414d-ad48-94efc15da48a.png align="center")
+1. Save the above script as [`ifelse.sh`](http://compare.sh).
     
 2. Make it executable:
     
@@ -162,7 +173,7 @@ Let’s compare two numbers using an `if-else` statement.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1733342171317/a58c37a8-81e9-42e5-a8c9-8b9955f23e0d.png align="center")
 
-### **Step-by-Step Explanation of the If-Else Script**
+Step-by-Step Explanation of the If-Else Script
 
 1. **Define Variables**: `num1` and `num2` are assigned values.
     
@@ -171,15 +182,6 @@ Let’s compare two numbers using an `if-else` statement.
 3. **Else Statement**: Executes when the condition is false.
     
 
-**Output**: Prints the appropriate message.
-
-## “**With practice, you'll unlock its full potential and confidently tackle even complex tasks**.”
-
-  
-
-  
-
-*   
-    
+## **“With practice, you'll unlock its full potential and confidently tackle even complex tasks**.”
 
 ---
