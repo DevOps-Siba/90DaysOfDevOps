@@ -67,7 +67,6 @@ Open the file:
 
 ```bash
 sudo vim /etc/ansible/hosts
- 
 ```
 
 Add your server details:
@@ -194,6 +193,85 @@ Automate the deployment of a static web page on multiple servers.
     
 
 #### **Step 2: Write the Playbook**
+
+Create a file called `index.yml`:
+
+```xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Junoon Batch-8</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #ff8c00, #ffdd00);
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    main {
+      padding: 2rem;
+      text-align: center;
+    }
+    main h2 {
+      font-size: 2rem;
+      color: #222;
+    }
+    main p {
+      font-size: 1.2rem;
+      margin: 1rem auto;
+      color: #555;
+      max-width: 600px;
+    }
+    .highlight {
+      color: #4CAF50;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Junoon Batch-8</h1>
+  </header>
+  <main>
+    <h2>"Junoon - Passion to Learn"</h2>
+    <p>
+      Welcome to the official webpage of <span class="highlight">Junoon Batch-8</span>.  
+      Together, we are driven by passion and commitment to master DevOps, Ansible, and cutting-edge technologies.
+    </p>
+    <p>
+      Let's embark on this journey to grow, innovate, and achieve greatness as a team.  
+      Here's to turning dreams into reality, one step at a time.
+    </p>
+  </main>
+  <footer>
+    &copy; 2024 Junoon Batch-8. Empowering learners to lead the future.
+  </footer>
+</body>
+</html>
+```
 
 Create a file called `deploy_webpage.yml`:
 
