@@ -33,7 +33,7 @@ Write a bash script `createDirectories.sh` that, when executed with three argume
 * Example 1: When executed as `./`[`createDirectories.sh`](http://createDirectories.sh) `day 1 90`, it creates 90 directories as `day1 day2 day3 ... day90`.
     
 
-**&gt;** Example 2: When executed as `./`[`createDirectories.sh`](http://createDirectories.sh) `Movie 20 50`, it creates 31 directories as `Movie20 Movie21 Movie22 ... Movie50`.
+**\&gt;** Example 2: When executed as `./`[`createDirectories.sh`](http://createDirectories.sh) `Movie 20 50`, it creates 31 directories as `Movie20 Movie21 Movie22 ... Movie50`.
 
 ### Implementation
 
@@ -94,8 +94,6 @@ Here’s a backup script to keep your work safe:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1734708358305/6a70edb4-0ead-473f-9f74-f938e5fc19cb.png align="center")
 
----
-
 ### Steps to Run:
 
 1. **Save the Script**: Ensure the script is saved with the changes.
@@ -134,8 +132,6 @@ If everything is set up correctly, the output should look something like this:
 
 **Crontab** (short for "cron table") is a configuration file that specifies what tasks to run and when to run them. Each user on a system can have their own crontab file.
 
----
-
 ### **How Cron and Crontab Work**
 
 1. **Cron Daemon (**`crond`):
@@ -165,8 +161,6 @@ If everything is set up correctly, the output should look something like this:
     * `COMMAND`: The script or command to run
         
 
----
-
 ### **Common Commands for Crontab**
 
 1. **List Crontab Entries**:
@@ -189,8 +183,6 @@ If everything is set up correctly, the output should look something like this:
      crontab -r
     ```
     
-
----
 
 ### **Automating the Backup Script**
 
@@ -381,8 +373,5 @@ This will display a list of all usernames in the system, including TWS and Junoo
     
 
 ---
-
-*   
-    
 
 ---
